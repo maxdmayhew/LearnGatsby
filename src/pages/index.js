@@ -31,6 +31,20 @@ const links = [
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
   },
+
+  // example max
+  {
+    text: "testing gats",
+    url: "https://www.google.com/",
+    description: "Wow look at me go",
+  },
+]
+
+const thing = [
+  {
+    text: "testing cows",
+    url: "https://www.google.com/",
+  },
 ]
 
 const samplePageLinks = [
@@ -71,7 +85,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="SEO TITLE" />
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
@@ -82,9 +96,11 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>
+      {/* <h1>
         Welcome to <b>Gatsby!</b>
-      </h1>
+      </h1> */}
+
+      <h1>Welcome Everyone!</h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
