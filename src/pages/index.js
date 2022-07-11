@@ -40,12 +40,12 @@ const links = [
   },
 ]
 
-const thing = [
-  {
-    text: "testing cows",
-    url: "https://www.google.com/",
-  },
-]
+// const thing = [
+//   {
+//     text: "testing cows",
+//     url: "https://www.google.com/",
+//   },
+// ]
 
 const samplePageLinks = [
   {
@@ -86,6 +86,11 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <Seo title="SEO TITLE" />
+    <StaticImage
+      className={styles.catbanner}
+      src="../../content/img/catbanner.jpeg"
+      alt="a cute lil cat"
+    />
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"

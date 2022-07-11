@@ -52,3 +52,22 @@
   max-width: none;
   line-height: var(--line-height-loose);
 }
+
+.catbanner {
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.catbanner2 {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.catpic {
+  float: left;
+  margin: 0 20px 0 0;
+  height: 300px;
+  width: 300px;
+}
