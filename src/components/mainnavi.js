@@ -1,9 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticQuery, graphql } from "gatsby"
-import PropTypes from "prop-types"
-import Layout from "./layout"
-import Header from "./header"
+// import { StaticQuery, graphql } from "gatsby"
+// import PropTypes from "prop-types"
+// import Layout from "./layout"
+// import Header from "./header"
 // import { render } from "react-dom"
 
 // const mainnavi = () => {

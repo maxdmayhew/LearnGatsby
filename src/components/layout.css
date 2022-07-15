@@ -222,3 +222,15 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+.mainnavibb ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.mainnavibb ul li {
+  padding: 10px;
+  list-style: none;
+}
