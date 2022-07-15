@@ -18,11 +18,14 @@ const SecondPage = () => (
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
     <StaticImage
+      // className={styles.catpic}
       className={styles.catbanner2}
       src="../../content/img/cat2.jpeg"
       alt="a cute lil cat"
       loading="lazy"
-      // aspectRatio={4 / 3}
+      // aspectRatio={16 / 9}
+      transformOptions={{ grayscale: true }}
+      // layout={"fullWidth"}
     />
     <h2 className={styles.textCenter}>
       I like crunchy I like meaty Tender centers satisfies completely I like

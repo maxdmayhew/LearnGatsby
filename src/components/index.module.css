@@ -71,3 +71,15 @@
   height: 300px;
   width: 300px;
 }
+
+.mainnavibb ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.mainnavibb ul li {
+  padding: 10px;
+  list-style: none;
+}
