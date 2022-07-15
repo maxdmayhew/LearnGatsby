@@ -57,6 +57,22 @@ module.exports = {
       },
       __key: `content-images`,
     },
+
+    {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: `events`, // should show up as it's own field in the graphql schema, very cool.
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content-events`,
+        path: `${__dirname}/content/events`,
+      },
+      __key: `content-events`,
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
